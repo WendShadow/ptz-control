@@ -2,12 +2,12 @@ import setuptools
 
 REQUIREMENTS = [line for line in open('requirements.txt').read().split('\n') if line != '']
 
-VERSION = '0.1.0'
+VERSION = '1.0.0'
 AUTHOR = 'Igor Dias'
-EMAIL = 'igorhenriquedias94@gmail.com'
+EMAIL = 'Wendshadow118@gmail.com'
 
 setuptools.setup(
-    name='sensecam_control',
+    name='ptz_control',
     version=VERSION,
     author=AUTHOR,
     author_email=EMAIL,
@@ -16,7 +16,7 @@ setuptools.setup(
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
-    url="https://github.com/smartsenselab/sensecam-control",
+    url="https://github.com/WendShadow/ptz-control.git",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",

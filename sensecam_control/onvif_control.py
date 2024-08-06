@@ -4,8 +4,8 @@ Library for control AXIS PTZ cameras using Onvif
 import logging
 from onvif import ONVIFCamera
 
-logging.basicConfig(filename='teste-onvif.log', filemode='w', level=logging.DEBUG)
-logging.info('Started')
+# logging.basicConfig(filename='teste-onvif.log', filemode='w', level=logging.DEBUG)
+# logging.info('Started')
 
 #pylint: disable=R0904
 class CameraControl:
